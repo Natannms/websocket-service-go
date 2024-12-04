@@ -1,0 +1,18 @@
+bin = "websocket-service.exe"
+
+cmd = "websocket-service.exe"
+
+include_dir = ["."]
+exclude_dir = ["vendor", "node_modules"]
+
+include_ext = ["go"]
+exclude_ext = ["log"]
+
+log_color = "true"
+log_time = "true"
+
+build_args = []
+
+run_args = []
+
+port = 8080
